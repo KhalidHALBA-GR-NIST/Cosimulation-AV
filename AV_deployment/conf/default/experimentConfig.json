@@ -1,0 +1,44 @@
+{
+  "federateTypesAllowed": [
+    "Communication",
+    "Control",
+    "Database",
+    "Sensing"
+  ],
+  "expectedFederates": [
+    {
+      "federateType": "Communication",
+      "count": 1
+    },
+    {
+      "federateType": "Control",
+      "count": 1
+    },
+    {
+      "federateType": "Database",
+      "count": 1
+    },
+    {
+      "federateType": "Sensing",
+      "count": 1
+    }
+  ],
+  "lateJoinerFederates": [
+    {
+      "federateType": "Communication",
+      "count": 0
+    },
+    {
+      "federateType": "Control",
+      "count": 0
+    },
+    {
+      "federateType": "Database",
+      "count": 0
+    },
+    {
+      "federateType": "Sensing",
+      "count": 0
+    }
+  ]
+}

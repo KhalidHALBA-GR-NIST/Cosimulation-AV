@@ -1,0 +1,26 @@
+{
+  "federateTypesAllowed": [
+    "Communication",
+    "Control",
+    "Sensing"
+  ],
+  "expectedFederates": [
+    {
+      "federateType": "Communication",
+      "count": 1
+    },
+    {
+      "federateType": "Control",
+      "count": 1
+    },
+    {
+      "federateType": "Sensing",
+      "count": 1
+    }
+  ],
+  "lateJoinerFederates": [],
+  "coaDefinition": "conf/NewcoaConfig.json",
+  "coaSelection": "conf/federationexperiment/coaSelection_federationexperiment.json",
+  "terminateOnCOAFinish": false,
+  "COASelectionToExecute": "COA"
+}
